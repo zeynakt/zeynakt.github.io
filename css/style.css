@@ -1,0 +1,89 @@
+html{
+  width: 100%;
+  height: 100%;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+}
+body{
+  width: 100%;
+  height: 100%;
+  background-color:rgb(247, 245, 245) !important; 
+  overflow: hidden;
+}
+#container-fluid { 
+  width: 100%;
+  height: 100%;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  padding-right: 0px;
+ }
+.grayLine{
+  background-color: gray;
+  width: 100% !important;
+  height: 3px;
+  margin-top: 50px;
+  position: absolute;
+}
+.imageDiv{
+  width: 25%;
+  height: 100%;
+  float: left;
+  margin-top: 0;
+  padding-top: 0;
+  position: absolute;
+}
+.img{
+  width: 100%;
+  height: 100%;
+}
+ .heyDiv{
+  margin-left: 35%;
+  width: 40%;
+  height: 60%;
+  float: right;
+  position: absolute;
+  margin-top: 100px;
+  } 
+ .hey{
+  color: #4c4d57;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: 'Lora', serif;
+}
+.explain{
+  color: #5d5e69;
+  font-size: 25px;
+  font-family: 'Lora', serif;
+  letter-spacing: 0.1em;
+}
+.logo{
+  float: right;
+  padding-right: 25px;
+  width: 35px;
+  height: 35px;
+  margin: 5px;
+}
+.logoDiv{
+  margin-top: 535px;
+ }
+.span{
+  text-align: right !important;
+  font-size: 13px;
+  color: #5d5e69;
+  font-family: 'Lora', serif;
+  padding-top: 5px;
+  margin-right: 2px !important;
+  padding-right: 6px !important;
+}
+.contact{
+  width: 100%;
+  text-align: right !important;
+  float: right;
+  margin-right: 0%;
+  padding-right: 0%;
+  background-color: #5d5e69
+}
+
+
+
+
