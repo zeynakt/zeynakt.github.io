@@ -32,10 +32,119 @@ body{
   padding-top: 0;
   position: absolute;
 }
+
+.bosDivTop{
+  background-color: transparent;
+/*   background-color: gray;
+ */  width: 17%;
+  height: 20%;
+  float: left;
+  margin-top: 0%;
+  padding-top: 0%;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+  position: absolute;
+}
+.bosDiv{
+  background-color: transparent;
+/*   background-color: pink;
+ */  width: 17%;
+  height: 20%;
+  float: left;
+  margin-top:10%;
+  /* margin-top: 0;*/
+  padding-top: 0%; 
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+  position: absolute;
+}
+.bosDiv2{
+  background-color: transparent;
+/*   background-color: yellow;
+ */  width: 17%;
+  height: 20%;
+  float: left;
+  margin-top:20%;
+  padding-top: 0%;
+  position: absolute;
+}
+#some-element { 
+  display: none; 
+/*   text-align: right; */
+  margin-left: 50%;
+  padding-left: 30%;
+  margin-top: 10%;
+  color: #829db4;
+  font-size: 30px;
+  font-family: 'Lora', serif;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+}
+.bosDiv:hover #some-element { 
+  display: block;
+ }
+ a{
+  text-decoration: none;
+ }
+ #some-elementDiv { 
+  display: none; 
+/*   text-align: right; */
+  margin-left: 100%;
+  padding-left: 30%;
+  margin-top: 10%;
+  color: #829db4;
+  font-size: 30px;
+  font-family: 'Lora', serif;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  width: 120%;
+  height: 66px;
+/*   background-color: darkcyan; */
+  opacity: 0.3;
+}
+.bosDiv:hover #some-elementDiv { 
+  display: block;
+ }
+ .bosDiv2:hover #some-elementDiv { 
+  display: block;
+ }
+ .bosDiv3:hover #some-elementDiv { 
+  display: block;
+ }
+.bosDiv3{
+  background-color: transparent;
+/*   background-color: green;
+ */  width: 17%;
+  height: 25%;
+  float: left;
+  margin-top:30%;
+  padding-top: 0%;
+  position: absolute;
+}
 .img{
   width: 100%;
   height: 100%;
 }
+.bosDiv:hover { 
+
+  cursor: default;
+    transform: rotate(180deg);
+    transition: all 0.8s ease-in-out 4s;
+ }
+ .bosDiv2:hover { 
+
+    cursor: default;
+      transform: rotate(180deg);
+      transition: all 0.8s ease-in-out 4s;
+   }
+   .bosDiv3:hover { 
+ 
+      cursor: default;
+        transform: rotate(180deg);
+        transition: all 0.8s ease-in-out 4s;
+        
+     }
+     
  .heyDiv{
   margin-left: 35%;
   width: 40%;
@@ -56,19 +165,36 @@ body{
   font-family: 'Lora', serif;
   letter-spacing: 0.1em;
 }
+.about{
+  color: #5d5e69;
+  font-size: 20px;
+  font-family: 'Lora', serif;
+  letter-spacing: 0.1em;
+}
 .logo{
   float: right;
   padding-right: 25px;
-  width: 35px;
-  height: 35px;
-  margin: 5px;
+  width: 30px;
+  height: 30px;
+  margin: 3px;
 }
 .logoDiv{
   margin-top: 535px;
  }
+ .logoDivT{
+  margin-top: 0;
+  padding-top: 0;
+ }
+ .logoT{
+  float: right;
+  padding-right: 25px;
+  width: 20px;
+  height: 20px;
+  margin: 2px;
+}
 .span{
   text-align: right !important;
-  font-size: 13px;
+  font-size: 11px;
   color: #5d5e69;
   font-family: 'Lora', serif;
   padding-top: 5px;
@@ -83,6 +209,8 @@ body{
   padding-right: 0%;
   background-color: #5d5e69
 }
+
+
 
 
 
