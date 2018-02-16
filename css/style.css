@@ -7,7 +7,8 @@ html{
 body{
   width: 100%;
   height: 100%;
-  background-color:rgb(247, 245, 245) !important; 
+  /* background-color:rgb(247, 245, 245) !important;  */
+  background-color:rgb(250, 249, 249) !important;
   overflow: hidden;
 }
 #container-fluid { 
@@ -18,9 +19,18 @@ body{
   padding-right: 0px;
  }
 .grayLine{
-  background-color: gray;
+  /* background-color: rgb(153, 152, 152); */
+  background: linear-gradient(to right,rgb(153, 152, 152) , whitesmoke);
   width: 100% !important;
   height: 3px;
+  margin-top: 50px;
+  position: absolute;
+}
+.grayLineT{
+  background-color: gray;
+  background: linear-gradient(to right,rgb(153, 152, 152) , whitesmoke);
+  width: 100% !important;
+  height: 2.5px;
   margin-top: 50px;
   position: absolute;
 }
@@ -188,8 +198,8 @@ body{
  .logoT{
   float: right;
   padding-right: 25px;
-  width: 20px;
-  height: 20px;
+  width: 22px;
+  height: 22px;
   margin: 2px;
 }
 .span{
@@ -209,6 +219,7 @@ body{
   padding-right: 0%;
   background-color: #5d5e69
 }
+
 
 
 
