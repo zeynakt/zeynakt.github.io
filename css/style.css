@@ -43,7 +43,7 @@ body{
   position: absolute;
 }
 
-.bosDivTop{
+.empty-box-Top{
   background-color: transparent;
 /*   background-color: gray;
  */  width: 17%;
@@ -55,7 +55,7 @@ body{
   padding-bottom: 0%;
   position: absolute;
 }
-.bosDiv{
+.empty-box{
   background-color: transparent;
 /*   background-color: pink;
  */  width: 17%;
@@ -68,7 +68,7 @@ body{
   padding-bottom: 0%;
   position: absolute;
 }
-.bosDiv2{
+.empty-box2{
   background-color: transparent;
 /*   background-color: yellow;
  */  width: 17%;
@@ -84,44 +84,47 @@ body{
   margin-left: 50%;
   padding-left: 30%;
   margin-top: 10%;
-  color: #829db4;
+/*   color: #829db4; */
+color: black;
   font-size: 30px;
-  font-family: 'Lora', serif;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 900;
   letter-spacing: 0.1em;
   text-decoration: none;
 }
-.bosDiv:hover #some-element { 
+.empty-box:hover #some-element { 
   display: block;
  }
  a{
   text-decoration: none;
  }
- #some-elementDiv { 
+ #some-element-div { 
   display: none; 
 /*   text-align: right; */
   margin-left: 100%;
   padding-left: 30%;
   margin-top: 10%;
-  color: #829db4;
+  /* color: #829db4; */ color: black;
   font-size: 30px;
-  font-family: 'Lora', serif;
+  font-family: 'Work Sans', sans-serif;
   letter-spacing: 0.1em;
   text-decoration: none;
   width: 120%;
   height: 66px;
+  font-weight: 900;
 /*   background-color: darkcyan; */
   opacity: 0.3;
 }
-.bosDiv:hover #some-elementDiv { 
+.empty-box:hover #some-element-div { 
   display: block;
  }
- .bosDiv2:hover #some-elementDiv { 
+ .empty-box2:hover #some-element-div { 
   display: block;
  }
- .bosDiv3:hover #some-elementDiv { 
+ .empty-box3:hover #some-element-div { 
   display: block;
  }
-.bosDiv3{
+.empty-box3{
   background-color: transparent;
 /*   background-color: green;
  */  width: 17%;
@@ -135,19 +138,19 @@ body{
   width: 100%;
   height: 100%;
 }
-.bosDiv:hover { 
+.empty-box:hover { 
 
   cursor: default;
     transform: rotate(180deg);
     transition: all 0.8s ease-in-out 4s;
  }
- .bosDiv2:hover { 
+ .empty-box2:hover { 
 
     cursor: default;
       transform: rotate(180deg);
       transition: all 0.8s ease-in-out 4s;
    }
-   .bosDiv3:hover { 
+   .empty-box3:hover { 
  
       cursor: default;
         transform: rotate(180deg);
@@ -155,7 +158,7 @@ body{
         
      }
      
- .heyDiv{
+ .hey-div{
   margin-left: 35%;
   width: 40%;
   height: 60%;
@@ -163,23 +166,38 @@ body{
   position: absolute;
   margin-top: 100px;
   } 
+  .hey-div-tab{
+    padding-top: 35px; 
+    margin-left: 35%;
+    width: 40%;
+    height: 60%;
+    float: right;
+    position: absolute;
+    margin-top: 100px;
+    } 
  .hey{
-  color: #4c4d57;
+/*   color: #4c4d57; */color: black;
   font-size: 35px;
   font-weight: bold;
-  font-family: 'Lora', serif;
+  font-family: 'Work Sans', sans-serif;
 }
 .explain{
-  color: #5d5e69;
-  font-size: 25px;
-  font-family: 'Lora', serif;
-  letter-spacing: 0.1em;
+ /*  color: #5d5e69; */
+  color: black;
+  font-size: 27px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 590;
+  /* letter-spacing: 0.1em; */
+  line-height: 1.2;
 }
 .about{
-  color: #5d5e69;
-  font-size: 20px;
-  font-family: 'Lora', serif;
-  letter-spacing: 0.1em;
+  /* color: #5d5e69; */
+  color: black;
+  font-size: 27px;
+  font-family: 'Work Sans', sans-serif;
+  /* letter-spacing: 0.1em; */
+  font-weight: 590;
+  line-height: 1.2;
 }
 .logo{
   float: right;
@@ -188,14 +206,14 @@ body{
   height: 30px;
   margin: 3px;
 }
-.logoDiv{
+.logo-div{
   margin-top: 535px;
  }
- .logoDivT{
+ .logo-div-tab{
   margin-top: 0;
-  padding-top: 0;
+  padding-top: 15px;
  }
- .logoT{
+ .logo-tab{
   float: right;
   padding-right: 25px;
   width: 22px;
@@ -204,10 +222,11 @@ body{
 }
 .span{
   text-align: right !important;
-  font-size: 11px;
-  color: #5d5e69;
-  font-family: 'Lora', serif;
-  padding-top: 5px;
+  font-size: 13px;
+  font-weight: bold;
+  /* color: #5d5e69; */color: black;
+  font-family: 'Work Sans', sans-serif;
+  padding-top: 25px;
   margin-right: 2px !important;
   padding-right: 6px !important;
 }
@@ -220,7 +239,72 @@ body{
   background-color: #5d5e69
 }
 
+html { font-size: 1px; }
+body {
+  margin: 0;
+ 
+ }
 
+main {
+  position: relative;
+  display: flex;
+  /*  font-family: 'Work Sans', sans-serif; */
+  font-family: 'Work Sans', sans-serif;
+  font-size: 20px;
+  /* min-height: 100vh; */
+  display: flex;
+  font-weight: normal !important;
+}
+.marker {
+  position: absolute; top: 4rem; left: -3rem;
+  height: 2rem; width: 25rem;
+  background-color: black;
+  animation-name: marker;
+  margin-left: 5px;
+}
+
+h1 { margin: 0; 
+  
+}
+.marker, .r, .e1, .s1, .s2, .e2 {
+  animation-timing-function: cubic-bezier(0.15,-0.01, 0.58, 1);
+  animation-duration: 5s;
+  animation-iteration-count: one;
+  will-change: transform;
+}
+
+
+
+.r { margin-left: 1rem;   animation-name: r; }
+.e1 { margin-left: 7rem; animation-name: e1; }
+.s1 { margin-left: 16rem; animation-name: s1; }
+.s2 { margin-left: 21rem; animation-name: s2; }
+.e2 { margin: 0 36rem 0 42rem; animation-name: e2; }
+
+@keyframes r { 
+  0%, 20% { transform: translateX(0); }
+  50%, 70% { transform: translateX(35rem); }
+}
+@keyframes e1 { 
+  0%, 20% { transform: translateX(0); }
+  50%, 70% { transform: translateX(75rem); }
+}
+@keyframes s1 { 
+  0%, 20% { transform: translateX(0); }
+  50%, 70% { transform: translateX(81rem); }
+}
+@keyframes s2 { 
+  0%, 20% { transform: translateX(0); }
+  50%, 70% { transform: translateX(71rem); }
+}
+@keyframes e2 { 
+  0%, 20% { transform: translateX(0); }
+  50%, 70% { transform: translateX(34rem); }
+}
+@keyframes marker { 
+  0%, 20% { transform: translateX(0); }
+  50%, 70% { transform: translateX(450rem); }
+}
 
 
 
