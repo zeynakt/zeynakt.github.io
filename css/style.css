@@ -3,8 +3,10 @@ html{
   height: 100%;
   -webkit-tap-highlight-color: transparent;
   display: block;
+  font-size: 1px;
 }
 body{
+  margin: 0;
   width: 100%;
   height: 100%;
   /* background-color:rgb(247, 245, 245) !important;  */
@@ -18,7 +20,7 @@ body{
   margin-right: 0px;
   padding-right: 0px;
  }
-.grayLine{
+.gray-line{
   /* background-color: rgb(153, 152, 152); */
   background: linear-gradient(to right,rgb(153, 152, 152) , whitesmoke);
   width: 100% !important;
@@ -26,7 +28,7 @@ body{
   margin-top: 50px;
   position: absolute;
 }
-.grayLineT{
+.gray-line-tab{
   background-color: gray;
   background: linear-gradient(to right,rgb(153, 152, 152) , whitesmoke);
   width: 100% !important;
@@ -34,7 +36,7 @@ body{
   margin-top: 50px;
   position: absolute;
 }
-.imageDiv{
+.image-div{
   width: 25%;
   height: 100%;
   float: left;
@@ -239,11 +241,7 @@ color: black;
   background-color: #5d5e69
 }
 
-html { font-size: 1px; }
-body {
-  margin: 0;
- 
- }
+
 
 main {
   position: relative;
